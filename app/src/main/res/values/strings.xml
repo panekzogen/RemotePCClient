@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Remote PC</string>
+
+    <string name="title_section1">Media Player</string>
+    <string name="title_section2">Touchpad Keyboard</string>
+    <string name="title_section3">Power Point</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="simple_ime">Simple IME</string>
+    <string name="subtype_en_US">English (US)</string>
+</resources>

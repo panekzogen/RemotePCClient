@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/slideshow_start"
+        android:background="@drawable/slidehow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/slideshow_close"
+        android:background="@drawable/stopslideshow"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/next_slide"
+        android:background="@drawable/nextslide"
+        android:layout_below="@+id/slideshow_start"
+        android:layout_toRightOf="@+id/slideshow_close"
+        android:layout_toEndOf="@+id/slideshow_close" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/prev_slide"
+        android:layout_below="@+id/slideshow_start"
+        android:layout_toLeftOf="@+id/slideshow_close"
+        android:layout_toStartOf="@+id/slideshow_close"
+        android:background="@drawable/prevslide" />
+
+</RelativeLayout>

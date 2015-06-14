@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false"
+    android:clickable="false">
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/play_pause"
+        android:background="@drawable/playpause"
+        android:layout_below="@+id/wmp_logo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/previous"
+        android:background="@drawable/previous"
+        android:layout_alignTop="@+id/next"
+        android:layout_toLeftOf="@+id/play_pause"
+        android:layout_toStartOf="@+id/play_pause"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/next"
+        android:background="@drawable/next"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/wmp_logo"
+        android:layout_toRightOf="@+id/play_pause"
+        android:layout_toEndOf="@+id/play_pause"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:id="@+id/vol_up"
+        android:background="@drawable/volup"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/wmp_logo"
+        android:background="@drawable/wmplogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:id="@+id/vol_down"
+        android:background="@drawable/voldown"
+        android:layout_alignTop="@+id/vol_up"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
